@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 35px 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container-main {
+    display: flex;
+    flex-direction: column ;
+}
+
+.header {
+    margin: 10px 30px;
+}
+
+.header > h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+button {
+    background-color: blue;
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    width: 15%;
+    font-size: large;
+    /* margin-top: 8px; */
+    font-weight: 700;
+    /* margin-bottom: 15px; */
+    margin: 20px 0;
+}
+
+input:focus {
+    color: black;
+}
+
+input {
+    font-size: larger;
+    color: #999;
+}
+
+.width-15 {
+    width: 15%;
+}
+
+.width-75 {
+    width: 70%;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.display-block {
+    display: block;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.form-input {
+    border-radius: 6px; width:80%; height: 40px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.width-90 {
+    width: 90%; 
+}
+
+.font-lg {
+    font-size: xx-large; 
+}
+
+.mb-2 {
+    margin-bottom: 2%;
+}
+
+.div-margin {
+    margin: 10px 30px;
+}
+
+.self-align {
+    align-self: flex-end;
+}
+
+.border-white {
+    border: 1px solid white;
+}
